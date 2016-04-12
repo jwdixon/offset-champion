@@ -804,9 +804,11 @@ namespace WindowsFormsApplication1
 
         private void manualToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if(File.Exists("manual.pdf"))
+            string path = "Content\\manual.pdf";
+
+            if(File.Exists(path))
             {
-                System.Diagnostics.Process.Start("manual.pdf");
+                System.Diagnostics.Process.Start(path);
             }
             else
             {
