@@ -123,6 +123,7 @@ namespace WindowsFormsApplication1
             PROCESS.Enabled = isOn;
 
             lockMapsToolStripMenuItem.Enabled = isOn;
+            resizeToolStripMenuItem.Enabled = isOn;
         }
 
         private void PROCESS_Click(object sender, EventArgs e)
