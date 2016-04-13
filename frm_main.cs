@@ -502,6 +502,9 @@ namespace WindowsFormsApplication1
                     {
                         SetText("Processing " + Path.GetFileName(file) + "...");
 
+                        room_shift_contents_x = false;
+                        room_shift_contents_y = false;
+
                         XDocument doc = XDocument.Load(file);
 
                         // modify room dimensions
