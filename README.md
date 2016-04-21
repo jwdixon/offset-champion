@@ -1,6 +1,8 @@
 # Offset Champion
 
-Offset Champion is a nifty little program that takes your Game Maker: Studio room.gmx and background.gmx files and adjusts them to work with a new tile offset and separation. It was programmed as a companion to Tileset Champion, a program that adds extra graphical space between tiles in tilesets in order to prevent cracking or seaming of tiles (see this tech blog post for more information). 
+Offset Champion is a nifty little program that takes your Game Maker: Studio room.gmx and background.gmx files and adjusts them to work with a new tile offset and separation. It was programmed as a companion to Tileset Champion, a program that adds extra graphical space between tiles in tilesets in order to prevent cracking or seaming of tiles.
+
+As of ver. 1.1, it can also grow the dimensions of every room.gmx in a directory, as well as shifting tiles and instances in any direction for every room.gmx in a directory.
 
 How does Offset Champion work? 
 
